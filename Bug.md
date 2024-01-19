@@ -2,20 +2,20 @@
 
 - **A bug is an error, flaw, or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways.**
 
-- History of 'Bug':
+- **History of 'Bug':**
     - The term "bug" was used in an account by computer pioneer 'Grace Hopper', who publicized the cause of a malfunction in an early electromechanical computer. A typical version of the story is:
 
     - In 1946, when Hopper was released from active duty, she joined the Harvard Faculty at the Computation Laboratory where she continued her work on the Mark II and Mark III. Operators traced an error in the Mark II to a moth trapped in a relay, coining the term bug. This bug was carefully removed and taped to the log book. Stemming from the first bug, today we call errors or glitches in a program a bug.
 
     - Hopper was not present when the bug was found, but it became one of her favorite stories. The date in the log book was September 9, 1947. The operators who found it, including William "Bill" Burke, later of the Naval Weapons Laboratory, Dahlgren, Virginia, were familiar with the engineering term and amusedly kept the insect with the notation "First actual case of bug being found." This log book, complete with attached moth, is part of the collection of the Smithsonian National Museum of American History.
 
-- Key points:
+- **Key points:**
     - It's a defect in the code or design that leads to incorrect behavior.
     - It can arise from mistakes in various stages of development, including requirements, design, coding, and testing.
     - Bugs can have varying levels of severity, from minor cosmetic issues to critical errors that crash the system or cause data loss.
     - The process of finding and fixing bugs is called debugging.
 
-- Additional insights:
+- **Additional insights:**
 
     - Bugs are often found during testing, but they can also be discovered by users after the software is released.
     - Some common types of bugs include:
