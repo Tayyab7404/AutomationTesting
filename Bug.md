@@ -9,6 +9,15 @@
 
     - Hopper was not present when the bug was found, but it became one of her favorite stories. The date in the log book was September 9, 1947. The operators who found it, including William "Bill" Burke, later of the Naval Weapons Laboratory, Dahlgren, Virginia, were familiar with the engineering term and amusedly kept the insect with the notation "First actual case of bug being found." This log book, complete with attached moth, is part of the collection of the Smithsonian National Museum of American History.
 
+**Types of Bugs:**
+    - 1. Functional Bugs
+    - 2. Logical Bugs
+    - 3. Workflow Bugs
+    - 4. Unit Level Bugs
+    - 5. System-Level Integration Bugs
+    - 6. Out of Bound Bugs
+    - 7. Security Bugs
+
 - **Key points:**
     - It's a defect in the code or design that leads to incorrect behavior.
     - It can arise from mistakes in various stages of development, including requirements, design, coding, and testing.
