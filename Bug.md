@@ -82,7 +82,7 @@
 
 - These environments collectively support the bug-fixing process by providing tools and infrastructure to identify, address, and validate solutions to software defects.
 
-
+<a href="https://testsigma.com/blog/types-of-bugs-in-software-testing/">Refer</a>
 https://testsigma.com/blog/types-of-bugs-in-software-testing/
 https://testsigma.com/blog/how-to-find-bugs/#What_is_a_bug_and_Why_do_bugs_occur
 https://www.browserstack.com/guide/types-of-software-bugs
