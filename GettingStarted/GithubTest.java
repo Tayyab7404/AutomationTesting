@@ -1,4 +1,4 @@
-package p1;
+package GettingStarted;
 
 import java.time.Duration;
 import org.openqa.selenium.By;
