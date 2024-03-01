@@ -1,4 +1,7 @@
-package GettingStarted;
+package p1;
+
+//https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebDriver.html
+//https://www.selenium.dev/documentation/webdriver/actions_api/keyboard/
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,7 +29,5 @@ public class FirstScript
         
         WebElement message = driver.findElement(By.id("message"));
         System.out.println(message.getText());
-        
-        driver.quit();
     }
 }
