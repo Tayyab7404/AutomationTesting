@@ -1,4 +1,4 @@
-package p1;
+package GettingStarted;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
