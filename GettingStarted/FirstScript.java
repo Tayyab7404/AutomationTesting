@@ -1,4 +1,4 @@
-package p1;
+package GettingStarted;
 
 //https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebDriver.html
 //https://www.selenium.dev/documentation/webdriver/actions_api/keyboard/
