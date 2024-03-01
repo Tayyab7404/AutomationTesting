@@ -1,33 +1,21 @@
 package GettingStarted;
 
-//https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebDriver.html
-//https://www.selenium.dev/documentation/webdriver/actions_api/keyboard/
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.By;
 
 public class FirstScript 
 {
     public static void main(String[] args) 
     {
         WebDriver driver = new ChromeDriver();
+        
+        driver.get("https://www.google.com");
 
-        driver.get("https://www.selenium.dev/selenium/web/web-form.html");
-
+        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
+        
         System.out.println(driver.getTitle());
         
-        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
-        
-        WebElement textbox = driver.findElement(By.name("my-text"));
-        WebElement submitButton = driver.findElement(By.cssSelector("button"));
-        
-        textbox.sendKeys("Selenium");
-        submitButton.click();
-        
-        WebElement message = driver.findElement(By.id("message"));
-        System.out.println(message.getText());
+        // driver.quit()
     }
 }
