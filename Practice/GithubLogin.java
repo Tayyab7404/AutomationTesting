@@ -19,8 +19,8 @@ public class GithubLogin
 		WebElement password = driver.findElement(By.id("password"));
 		WebElement submitbutton = driver.findElement(By.name("commit"));
 		
-		username.sendKeys("tayyab7404"); // Use your username
-		password.sendKeys("tayyab@7404"); // Use your password
+		username.sendKeys(""); // Use your username
+		password.sendKeys(""); // Use your password
 		submitbutton.click();
 		
 		System.out.println(driver.getTitle());
