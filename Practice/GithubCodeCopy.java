@@ -30,7 +30,7 @@ public class GithubTest
 		WebElement title_area = driver.findElement(By.id("title"));
 		WebElement text_area = driver.findElement(By.id("text"));
 
-    // Paste code into the text area:
+    		// Paste code into the text area:
 		title_area.sendKeys("First Script");
 		text_area.sendKeys(code);
 	}
