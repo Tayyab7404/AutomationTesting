@@ -1,0 +1,3 @@
+Main Window Handle: 32EA995F5BDA21B77CEBBA2D076542B6
+Position of the Window: (0, 0)
+Size of the Window: (1536, 864)
