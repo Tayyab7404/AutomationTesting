@@ -1,0 +1,8 @@
+Alert Text: I am an alert box!
+Alert Text output: You selected alert popup
+
+Confirm Text: Press a button!
+Confirm Text output: You pressed OK in confirmation popup
+
+Prompt Request Text: Please enter your name:
+Prompt Text output: You entered text Tayyab in propmt popup

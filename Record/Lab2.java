@@ -9,17 +9,17 @@ public class Lab2
 	{
 		WebDriver driver = new ChromeDriver();
 		
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); // maximizes the window
 		
 		driver.get("https://www.google.com");
 		
-		driver.navigate().to("https://www.facebook.com");
+		driver.navigate().to("https://www.facebook.com"); // navigating to a new website
 		
-		driver.navigate().back();
+		driver.navigate().back(); // navigating back to the previous website
 		
-		driver.navigate().forward();
+		driver.navigate().forward(); // navigating forward to a website
 		
-		driver.navigate().refresh();
+		driver.navigate().refresh(); // refreshing the website
 		
 		System.out.println("Title: " + driver.getTitle());
 

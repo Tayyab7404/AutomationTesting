@@ -13,6 +13,8 @@ public class Lab4
 	{
         WebDriver driver = new ChromeDriver();
         
+        driver.manage().window().maximize();
+        
         driver.get("https://www.lambdatest.com/selenium-playground/input-form-demo");
 
         System.out.println("Title: " + driver.getTitle());

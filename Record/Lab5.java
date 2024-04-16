@@ -11,6 +11,8 @@ public class Lab5
     public static void main(String[] args) throws InterruptedException
     {
         WebDriver driver = new ChromeDriver();
+        
+        driver.manage().window().maximize();
 
         driver.get("https://www.hyrtutorials.com/p/frames-practice.html");
 
@@ -27,10 +29,10 @@ public class Lab5
         
         Thread.sleep(2000);
         
-        driver.switchTo().defaultContent(); // redirecting to the main frame
+        driver.switchTo().defaultContent(); // redirecting  back to the main frame
         
         driver.findElement(By.id("name")).clear(); // cleared the main frame text
-        driver.findElement(By.id("name")).sendKeys("returned to main webpage"); // the text will be appened to main 
+        driver.findElement(By.id("name")).sendKeys("returned to main webpage");
 
         driver.quit();
     }
