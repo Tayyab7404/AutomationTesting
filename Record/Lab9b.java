@@ -1,6 +1,5 @@
 package Record;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
@@ -17,38 +16,10 @@ public class Lab9b
 {
 	WebDriver driver = new ChromeDriver();
 	
-	@Test
-	public void test1()
+	@BeforeSuite
+	public void beforeSuite()
 	{
-		System.out.println("NVN Executing Test Case 1");
-	}
-	
-	@Test
-	public void test2()
-	{
-		System.out.println("NVN Executing Test Case 2");
-	}
-	
-	@BeforeMethod
-	public void beforeMethod()
-	{
-		System.out.println("Test Case Before Method");
-	}
-	@AfterMethod
-	public void afterMethod()
-	{
-		System.out.println("Test Case After Method");
-	}
-	
-	@BeforeClass
-	public void beforeClass()
-	{
-		System.out.println("Test Case Before Class");
-	}
-	@AfterClass
-	public void afterClass()
-	{
-		System.out.println("Test Case After Class");
+		System.out.println("Test Case Before Suite");
 	}
 	
 	@BeforeTest
@@ -56,17 +27,49 @@ public class Lab9b
 	{
 		System.out.println("Test Case Before Test");
 	}
+	
+	@BeforeClass
+	public void beforeClass()
+	{
+		System.out.println("Test Case Before Class");
+	}
+	
+	@BeforeMethod
+	public void beforeMethod()
+	{
+		System.out.println("Test Case Before Method");
+	}
+	
+	@Test
+	public void test1()
+	{
+		System.out.println("Tayyab Executing Test Case 1");
+	}
+	
+	@AfterMethod
+	public void afterMethod()
+	{
+		System.out.println("Test Case After Method");
+	}
+	
+	@Test
+	public void test2()
+	{
+		System.out.println("Tayyab Executing Test Case 2");
+	}
+	
+	@AfterClass
+	public void afterClass()
+	{
+		System.out.println("Test Case After Class");
+	}
+	
 	@AfterTest
 	public void afterTest()
 	{
 		System.out.println("Test Case After Test");
 	}
 	
-	@BeforeSuite
-	public void beforeSuite()
-	{
-		System.out.println("Test Case Before Suite");
-	}
 	@AfterSuite
 	public void afterSuite()
 	{
