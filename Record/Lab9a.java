@@ -10,6 +10,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Lab9a
 {
 	WebDriver driver = new ChromeDriver();
+
+	@BeforeMethod
+	public void Before()
+	{
+		System.out.println("Starting the Browers to Launch");
+	}
 	
 	@Test
 	public void testAssert()
@@ -21,12 +27,6 @@ public class Lab9a
 		
 		Assert.assertNotEquals(ActualTitle, ExpectedTitle);
 		System.out.println("The Actual Title is: " + ActualTitle);
-	}
-	
-	@BeforeMethod
-	public void Before()
-	{
-		System.out.println("Starting the Browers to Launch");
 	}
 	
 	@AfterMethod
