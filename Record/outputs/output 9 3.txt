@@ -1,0 +1,25 @@
+Test Case Before Suite
+Test Case Before Test
+Test Case Before Class
+Test Case Before Method
+Tayyab Executing Test Case 1
+Test Case After Method
+Test Case Before Method
+Tayyab Executing Test Case 2
+Test Case After Method
+Test Case After Class
+Test Case After Test
+PASSED: test2
+PASSED: test1
+
+===============================================
+    Default test
+    Tests run: 2, Failures: 0, Skips: 0
+===============================================
+
+Test Case After Suite
+
+===============================================
+Default suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
