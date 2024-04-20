@@ -19,13 +19,13 @@ public class Lab10
 		
 		driver.get("https://tayyab7404.github.io/Login/");
 
-        WebElement usernameField = driver.findElement(By.id("username"));
-        WebElement passwordField = driver.findElement(By.id("password"));
-        WebElement submitButton = driver.findElement(By.id("submit"));
+        	WebElement usernameField = driver.findElement(By.id("username"));
+        	WebElement passwordField = driver.findElement(By.id("password"));
+       		WebElement submitButton = driver.findElement(By.id("submit"));
 
-        usernameField.sendKeys(username);
-        passwordField.sendKeys(password);
-        submitButton.click();
+        	usernameField.sendKeys(username);
+        	passwordField.sendKeys(password);
+        	submitButton.click();
 		
 		Thread.sleep(5000);
 		
