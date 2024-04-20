@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Login Page</title>
+	</head>
+	<body>
+		Username: <input type='text' id='username' required><br>
+		Password: <input type='text' id='password' required><br>
+		<button id='submit' onclick="verify()">SUBMIT</button><br><br>
+		<h2 id="output"></h2>
+
+		<script>
+			function verify()
+			{
+				const username = document.getElementById("username").value;
+				const password = document.getElementById("password").value;
+				const output = document.getElementById("output");
+
+				if((username === "tayyab" && password === "password") || (username === "neeraj" && password === "chaduko bro"))
+					output.innerHTML = "Login Successful!";
+				else
+					output.innerHTML = "Login Failed!";
+			}
+		</script>
+	</body>
+</html>
