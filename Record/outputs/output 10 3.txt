@@ -1,0 +1,16 @@
+[tayyab, password]
+[neeraj, chaduko bro]
+
+PASSED: testLogin("tayyab", "password")
+PASSED: testLogin("neeraj", "chaduko bro")
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
